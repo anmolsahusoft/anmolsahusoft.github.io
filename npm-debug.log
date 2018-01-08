@@ -1,0 +1,449 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/anmol/.nvm/versions/node/v4.4.3/bin/node',
+1 verbose cli   '/Users/anmol/.nvm/versions/node/v4.4.3/bin/npm',
+1 verbose cli   'install' ]
+2 info using npm@2.15.1
+3 info using node@v4.4.3
+4 verbose readDependencies loading dependencies from /Users/anmol/Sites/projects/personal/particle/package.json
+5 warn package.json particle@1.0.0 No repository field.
+6 verbose install where, deps [ '/Users/anmol/Sites/projects/personal/particle',
+6 verbose install   [ 'browser-sync',
+6 verbose install     'gulp',
+6 verbose install     'gulp-concat',
+6 verbose install     'gulp-csso',
+6 verbose install     'gulp-imagemin',
+6 verbose install     'gulp-plumber',
+6 verbose install     'gulp-sass',
+6 verbose install     'gulp-uglify' ] ]
+7 verbose install where, peers [ '/Users/anmol/Sites/projects/personal/particle', [] ]
+8 verbose installManyTop reading for lifecycle /Users/anmol/Sites/projects/personal/particle/package.json
+9 info preinstall particle@1.0.0
+10 verbose readDependencies loading dependencies from /Users/anmol/Sites/projects/personal/particle/package.json
+11 silly cache add args [ 'gulp@^3.9.1', null ]
+12 verbose cache add spec gulp@^3.9.1
+13 silly cache add parsed spec Result {
+13 silly cache add   raw: 'gulp@^3.9.1',
+13 silly cache add   scope: null,
+13 silly cache add   name: 'gulp',
+13 silly cache add   rawSpec: '^3.9.1',
+13 silly cache add   spec: '>=3.9.1 <4.0.0',
+13 silly cache add   type: 'range' }
+14 silly addNamed gulp@>=3.9.1 <4.0.0
+15 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+16 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+17 silly mapToRegistry name gulp
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry http://52.35.230.55/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'gulp',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   name: 'gulp',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri http://52.35.230.55/gulp
+22 verbose addNameRange registry:http://52.35.230.55/gulp not in flight; fetching
+23 silly cache add args [ 'gulp-concat@^2.6.1', null ]
+24 verbose cache add spec gulp-concat@^2.6.1
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: 'gulp-concat@^2.6.1',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'gulp-concat',
+25 silly cache add   rawSpec: '^2.6.1',
+25 silly cache add   spec: '>=2.6.1 <3.0.0',
+25 silly cache add   type: 'range' }
+26 silly addNamed gulp-concat@>=2.6.1 <3.0.0
+27 verbose addNamed ">=2.6.1 <3.0.0" is a valid semver range for gulp-concat
+28 silly addNameRange { name: 'gulp-concat', range: '>=2.6.1 <3.0.0', hasData: false }
+29 silly mapToRegistry name gulp-concat
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry http://52.35.230.55/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'gulp-concat',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   name: 'gulp-concat',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri http://52.35.230.55/gulp-concat
+34 verbose addNameRange registry:http://52.35.230.55/gulp-concat not in flight; fetching
+35 silly cache add args [ 'gulp-csso@^2.0.0', null ]
+36 verbose cache add spec gulp-csso@^2.0.0
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'gulp-csso@^2.0.0',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'gulp-csso',
+37 silly cache add   rawSpec: '^2.0.0',
+37 silly cache add   spec: '>=2.0.0 <3.0.0',
+37 silly cache add   type: 'range' }
+38 silly addNamed gulp-csso@>=2.0.0 <3.0.0
+39 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for gulp-csso
+40 silly addNameRange { name: 'gulp-csso', range: '>=2.0.0 <3.0.0', hasData: false }
+41 silly mapToRegistry name gulp-csso
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry http://52.35.230.55/
+44 silly mapToRegistry data Result {
+44 silly mapToRegistry   raw: 'gulp-csso',
+44 silly mapToRegistry   scope: null,
+44 silly mapToRegistry   name: 'gulp-csso',
+44 silly mapToRegistry   rawSpec: '',
+44 silly mapToRegistry   spec: 'latest',
+44 silly mapToRegistry   type: 'tag' }
+45 silly mapToRegistry uri http://52.35.230.55/gulp-csso
+46 verbose addNameRange registry:http://52.35.230.55/gulp-csso not in flight; fetching
+47 silly cache add args [ 'gulp-imagemin@^3.1.1', null ]
+48 verbose cache add spec gulp-imagemin@^3.1.1
+49 silly cache add parsed spec Result {
+49 silly cache add   raw: 'gulp-imagemin@^3.1.1',
+49 silly cache add   scope: null,
+49 silly cache add   name: 'gulp-imagemin',
+49 silly cache add   rawSpec: '^3.1.1',
+49 silly cache add   spec: '>=3.1.1 <4.0.0',
+49 silly cache add   type: 'range' }
+50 silly addNamed gulp-imagemin@>=3.1.1 <4.0.0
+51 verbose addNamed ">=3.1.1 <4.0.0" is a valid semver range for gulp-imagemin
+52 silly addNameRange { name: 'gulp-imagemin',
+52 silly addNameRange   range: '>=3.1.1 <4.0.0',
+52 silly addNameRange   hasData: false }
+53 silly mapToRegistry name gulp-imagemin
+54 silly mapToRegistry using default registry
+55 silly mapToRegistry registry http://52.35.230.55/
+56 silly mapToRegistry data Result {
+56 silly mapToRegistry   raw: 'gulp-imagemin',
+56 silly mapToRegistry   scope: null,
+56 silly mapToRegistry   name: 'gulp-imagemin',
+56 silly mapToRegistry   rawSpec: '',
+56 silly mapToRegistry   spec: 'latest',
+56 silly mapToRegistry   type: 'tag' }
+57 silly mapToRegistry uri http://52.35.230.55/gulp-imagemin
+58 verbose addNameRange registry:http://52.35.230.55/gulp-imagemin not in flight; fetching
+59 silly cache add args [ 'gulp-plumber@^1.1.0', null ]
+60 verbose cache add spec gulp-plumber@^1.1.0
+61 silly cache add parsed spec Result {
+61 silly cache add   raw: 'gulp-plumber@^1.1.0',
+61 silly cache add   scope: null,
+61 silly cache add   name: 'gulp-plumber',
+61 silly cache add   rawSpec: '^1.1.0',
+61 silly cache add   spec: '>=1.1.0 <2.0.0',
+61 silly cache add   type: 'range' }
+62 silly addNamed gulp-plumber@>=1.1.0 <2.0.0
+63 verbose addNamed ">=1.1.0 <2.0.0" is a valid semver range for gulp-plumber
+64 silly addNameRange { name: 'gulp-plumber', range: '>=1.1.0 <2.0.0', hasData: false }
+65 silly mapToRegistry name gulp-plumber
+66 silly mapToRegistry using default registry
+67 silly mapToRegistry registry http://52.35.230.55/
+68 silly mapToRegistry data Result {
+68 silly mapToRegistry   raw: 'gulp-plumber',
+68 silly mapToRegistry   scope: null,
+68 silly mapToRegistry   name: 'gulp-plumber',
+68 silly mapToRegistry   rawSpec: '',
+68 silly mapToRegistry   spec: 'latest',
+68 silly mapToRegistry   type: 'tag' }
+69 silly mapToRegistry uri http://52.35.230.55/gulp-plumber
+70 verbose addNameRange registry:http://52.35.230.55/gulp-plumber not in flight; fetching
+71 silly cache add args [ 'gulp-sass@^3.1.0', null ]
+72 verbose cache add spec gulp-sass@^3.1.0
+73 silly cache add parsed spec Result {
+73 silly cache add   raw: 'gulp-sass@^3.1.0',
+73 silly cache add   scope: null,
+73 silly cache add   name: 'gulp-sass',
+73 silly cache add   rawSpec: '^3.1.0',
+73 silly cache add   spec: '>=3.1.0 <4.0.0',
+73 silly cache add   type: 'range' }
+74 silly addNamed gulp-sass@>=3.1.0 <4.0.0
+75 verbose addNamed ">=3.1.0 <4.0.0" is a valid semver range for gulp-sass
+76 silly addNameRange { name: 'gulp-sass', range: '>=3.1.0 <4.0.0', hasData: false }
+77 silly mapToRegistry name gulp-sass
+78 silly mapToRegistry using default registry
+79 silly mapToRegistry registry http://52.35.230.55/
+80 silly mapToRegistry data Result {
+80 silly mapToRegistry   raw: 'gulp-sass',
+80 silly mapToRegistry   scope: null,
+80 silly mapToRegistry   name: 'gulp-sass',
+80 silly mapToRegistry   rawSpec: '',
+80 silly mapToRegistry   spec: 'latest',
+80 silly mapToRegistry   type: 'tag' }
+81 silly mapToRegistry uri http://52.35.230.55/gulp-sass
+82 verbose addNameRange registry:http://52.35.230.55/gulp-sass not in flight; fetching
+83 silly cache add args [ 'gulp-uglify@^2.0.0', null ]
+84 verbose cache add spec gulp-uglify@^2.0.0
+85 silly cache add parsed spec Result {
+85 silly cache add   raw: 'gulp-uglify@^2.0.0',
+85 silly cache add   scope: null,
+85 silly cache add   name: 'gulp-uglify',
+85 silly cache add   rawSpec: '^2.0.0',
+85 silly cache add   spec: '>=2.0.0 <3.0.0',
+85 silly cache add   type: 'range' }
+86 silly addNamed gulp-uglify@>=2.0.0 <3.0.0
+87 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for gulp-uglify
+88 silly addNameRange { name: 'gulp-uglify', range: '>=2.0.0 <3.0.0', hasData: false }
+89 silly mapToRegistry name gulp-uglify
+90 silly mapToRegistry using default registry
+91 silly mapToRegistry registry http://52.35.230.55/
+92 silly mapToRegistry data Result {
+92 silly mapToRegistry   raw: 'gulp-uglify',
+92 silly mapToRegistry   scope: null,
+92 silly mapToRegistry   name: 'gulp-uglify',
+92 silly mapToRegistry   rawSpec: '',
+92 silly mapToRegistry   spec: 'latest',
+92 silly mapToRegistry   type: 'tag' }
+93 silly mapToRegistry uri http://52.35.230.55/gulp-uglify
+94 verbose addNameRange registry:http://52.35.230.55/gulp-uglify not in flight; fetching
+95 silly cache add args [ 'browser-sync@^2.18.6', null ]
+96 verbose cache add spec browser-sync@^2.18.6
+97 silly cache add parsed spec Result {
+97 silly cache add   raw: 'browser-sync@^2.18.6',
+97 silly cache add   scope: null,
+97 silly cache add   name: 'browser-sync',
+97 silly cache add   rawSpec: '^2.18.6',
+97 silly cache add   spec: '>=2.18.6 <3.0.0',
+97 silly cache add   type: 'range' }
+98 silly addNamed browser-sync@>=2.18.6 <3.0.0
+99 verbose addNamed ">=2.18.6 <3.0.0" is a valid semver range for browser-sync
+100 silly addNameRange { name: 'browser-sync',
+100 silly addNameRange   range: '>=2.18.6 <3.0.0',
+100 silly addNameRange   hasData: false }
+101 silly mapToRegistry name browser-sync
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry http://52.35.230.55/
+104 silly mapToRegistry data Result {
+104 silly mapToRegistry   raw: 'browser-sync',
+104 silly mapToRegistry   scope: null,
+104 silly mapToRegistry   name: 'browser-sync',
+104 silly mapToRegistry   rawSpec: '',
+104 silly mapToRegistry   spec: 'latest',
+104 silly mapToRegistry   type: 'tag' }
+105 silly mapToRegistry uri http://52.35.230.55/browser-sync
+106 verbose addNameRange registry:http://52.35.230.55/browser-sync not in flight; fetching
+107 verbose request uri http://52.35.230.55/gulp
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 11:20:43 PM
+110 verbose request id d9f7e334e631cf59
+111 http request GET http://52.35.230.55/gulp
+112 verbose request uri http://52.35.230.55/gulp-concat
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 11:20:43 PM
+115 http request GET http://52.35.230.55/gulp-concat
+116 verbose request uri http://52.35.230.55/gulp-csso
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 11:20:43 PM
+119 http request GET http://52.35.230.55/gulp-csso
+120 verbose request uri http://52.35.230.55/gulp-imagemin
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 11:20:43 PM
+123 http request GET http://52.35.230.55/gulp-imagemin
+124 verbose request uri http://52.35.230.55/gulp-plumber
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 11:20:43 PM
+127 http request GET http://52.35.230.55/gulp-plumber
+128 verbose request uri http://52.35.230.55/gulp-sass
+129 verbose request no auth needed
+130 info attempt registry request try #1 at 11:20:43 PM
+131 http request GET http://52.35.230.55/gulp-sass
+132 verbose request uri http://52.35.230.55/gulp-uglify
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 11:20:43 PM
+135 http request GET http://52.35.230.55/gulp-uglify
+136 verbose request uri http://52.35.230.55/browser-sync
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 11:20:43 PM
+139 http request GET http://52.35.230.55/browser-sync
+140 http 403 http://52.35.230.55/gulp
+141 verbose headers { server: 'nginx/1.10.2',
+141 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+141 verbose headers   'content-type': 'application/json; charset=utf-8',
+141 verbose headers   'content-length': '75',
+141 verbose headers   connection: 'keep-alive',
+141 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+141 verbose headers   'access-control-allow-origin': '*',
+141 verbose headers   etag: 'W/"4b-S189ngF//jw9evwvy55XgN+onto"',
+141 verbose headers   vary: 'Accept-Encoding',
+141 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+142 silly get cb [ 403,
+142 silly get   { server: 'nginx/1.10.2',
+142 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+142 silly get     'content-type': 'application/json; charset=utf-8',
+142 silly get     'content-length': '75',
+142 silly get     connection: 'keep-alive',
+142 silly get     'x-powered-by': 'verdaccio/2.3.6',
+142 silly get     'access-control-allow-origin': '*',
+142 silly get     etag: 'W/"4b-S189ngF//jw9evwvy55XgN+onto"',
+142 silly get     vary: 'Accept-Encoding',
+142 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+143 http 403 http://52.35.230.55/browser-sync
+144 verbose headers { server: 'nginx/1.10.2',
+144 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+144 verbose headers   'content-type': 'application/json; charset=utf-8',
+144 verbose headers   'content-length': '83',
+144 verbose headers   connection: 'keep-alive',
+144 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+144 verbose headers   'access-control-allow-origin': '*',
+144 verbose headers   etag: 'W/"53-KA5w2U7H1rkyXuabywzrFbHI4VA"',
+144 verbose headers   vary: 'Accept-Encoding',
+144 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+145 silly get cb [ 403,
+145 silly get   { server: 'nginx/1.10.2',
+145 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+145 silly get     'content-type': 'application/json; charset=utf-8',
+145 silly get     'content-length': '83',
+145 silly get     connection: 'keep-alive',
+145 silly get     'x-powered-by': 'verdaccio/2.3.6',
+145 silly get     'access-control-allow-origin': '*',
+145 silly get     etag: 'W/"53-KA5w2U7H1rkyXuabywzrFbHI4VA"',
+145 silly get     vary: 'Accept-Encoding',
+145 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+146 http 403 http://52.35.230.55/gulp-csso
+147 verbose headers { server: 'nginx/1.10.2',
+147 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+147 verbose headers   'content-type': 'application/json; charset=utf-8',
+147 verbose headers   'content-length': '80',
+147 verbose headers   connection: 'keep-alive',
+147 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+147 verbose headers   'access-control-allow-origin': '*',
+147 verbose headers   etag: 'W/"50-/FlqEHOu/lAU85/gmJTwrkbfEPg"',
+147 verbose headers   vary: 'Accept-Encoding',
+147 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+148 silly get cb [ 403,
+148 silly get   { server: 'nginx/1.10.2',
+148 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+148 silly get     'content-type': 'application/json; charset=utf-8',
+148 silly get     'content-length': '80',
+148 silly get     connection: 'keep-alive',
+148 silly get     'x-powered-by': 'verdaccio/2.3.6',
+148 silly get     'access-control-allow-origin': '*',
+148 silly get     etag: 'W/"50-/FlqEHOu/lAU85/gmJTwrkbfEPg"',
+148 silly get     vary: 'Accept-Encoding',
+148 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+149 http 403 http://52.35.230.55/gulp-uglify
+150 verbose headers { server: 'nginx/1.10.2',
+150 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+150 verbose headers   'content-type': 'application/json; charset=utf-8',
+150 verbose headers   'content-length': '82',
+150 verbose headers   connection: 'keep-alive',
+150 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+150 verbose headers   'access-control-allow-origin': '*',
+150 verbose headers   etag: 'W/"52-NqbIZ1Xgd80nMiufsGuG3ipGYyw"',
+150 verbose headers   vary: 'Accept-Encoding',
+150 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+151 silly get cb [ 403,
+151 silly get   { server: 'nginx/1.10.2',
+151 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+151 silly get     'content-type': 'application/json; charset=utf-8',
+151 silly get     'content-length': '82',
+151 silly get     connection: 'keep-alive',
+151 silly get     'x-powered-by': 'verdaccio/2.3.6',
+151 silly get     'access-control-allow-origin': '*',
+151 silly get     etag: 'W/"52-NqbIZ1Xgd80nMiufsGuG3ipGYyw"',
+151 silly get     vary: 'Accept-Encoding',
+151 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+152 http 403 http://52.35.230.55/gulp-imagemin
+153 verbose headers { server: 'nginx/1.10.2',
+153 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+153 verbose headers   'content-type': 'application/json; charset=utf-8',
+153 verbose headers   'content-length': '84',
+153 verbose headers   connection: 'keep-alive',
+153 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+153 verbose headers   'access-control-allow-origin': '*',
+153 verbose headers   etag: 'W/"54-L+sSQb0TtHKqs4crwX6SRV4LQwc"',
+153 verbose headers   vary: 'Accept-Encoding',
+153 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+154 silly get cb [ 403,
+154 silly get   { server: 'nginx/1.10.2',
+154 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+154 silly get     'content-type': 'application/json; charset=utf-8',
+154 silly get     'content-length': '84',
+154 silly get     connection: 'keep-alive',
+154 silly get     'x-powered-by': 'verdaccio/2.3.6',
+154 silly get     'access-control-allow-origin': '*',
+154 silly get     etag: 'W/"54-L+sSQb0TtHKqs4crwX6SRV4LQwc"',
+154 silly get     vary: 'Accept-Encoding',
+154 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+155 http 403 http://52.35.230.55/gulp-concat
+156 verbose headers { server: 'nginx/1.10.2',
+156 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+156 verbose headers   'content-type': 'application/json; charset=utf-8',
+156 verbose headers   'content-length': '82',
+156 verbose headers   connection: 'keep-alive',
+156 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+156 verbose headers   'access-control-allow-origin': '*',
+156 verbose headers   etag: 'W/"52-x3JlJyabDzhp4sZU10JUg4TW4zA"',
+156 verbose headers   vary: 'Accept-Encoding',
+156 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+157 silly get cb [ 403,
+157 silly get   { server: 'nginx/1.10.2',
+157 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+157 silly get     'content-type': 'application/json; charset=utf-8',
+157 silly get     'content-length': '82',
+157 silly get     connection: 'keep-alive',
+157 silly get     'x-powered-by': 'verdaccio/2.3.6',
+157 silly get     'access-control-allow-origin': '*',
+157 silly get     etag: 'W/"52-x3JlJyabDzhp4sZU10JUg4TW4zA"',
+157 silly get     vary: 'Accept-Encoding',
+157 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+158 http 403 http://52.35.230.55/gulp-sass
+159 verbose headers { server: 'nginx/1.10.2',
+159 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+159 verbose headers   'content-type': 'application/json; charset=utf-8',
+159 verbose headers   'content-length': '80',
+159 verbose headers   connection: 'keep-alive',
+159 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+159 verbose headers   'access-control-allow-origin': '*',
+159 verbose headers   etag: 'W/"50-2D4192HgXenz44ajSsrZOYsO7NU"',
+159 verbose headers   vary: 'Accept-Encoding',
+159 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+160 silly get cb [ 403,
+160 silly get   { server: 'nginx/1.10.2',
+160 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+160 silly get     'content-type': 'application/json; charset=utf-8',
+160 silly get     'content-length': '80',
+160 silly get     connection: 'keep-alive',
+160 silly get     'x-powered-by': 'verdaccio/2.3.6',
+160 silly get     'access-control-allow-origin': '*',
+160 silly get     etag: 'W/"50-2D4192HgXenz44ajSsrZOYsO7NU"',
+160 silly get     vary: 'Accept-Encoding',
+160 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+161 http 403 http://52.35.230.55/gulp-plumber
+162 verbose headers { server: 'nginx/1.10.2',
+162 verbose headers   date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+162 verbose headers   'content-type': 'application/json; charset=utf-8',
+162 verbose headers   'content-length': '83',
+162 verbose headers   connection: 'keep-alive',
+162 verbose headers   'x-powered-by': 'verdaccio/2.3.6',
+162 verbose headers   'access-control-allow-origin': '*',
+162 verbose headers   etag: 'W/"53-PsNhTsRQfZO9fF+Zci+GkSeQvt4"',
+162 verbose headers   vary: 'Accept-Encoding',
+162 verbose headers   'x-status-cat': 'http://flic.kr/p/aV6jFK' }
+163 silly get cb [ 403,
+163 silly get   { server: 'nginx/1.10.2',
+163 silly get     date: 'Sun, 07 Jan 2018 17:50:42 GMT',
+163 silly get     'content-type': 'application/json; charset=utf-8',
+163 silly get     'content-length': '83',
+163 silly get     connection: 'keep-alive',
+163 silly get     'x-powered-by': 'verdaccio/2.3.6',
+163 silly get     'access-control-allow-origin': '*',
+163 silly get     etag: 'W/"53-PsNhTsRQfZO9fF+Zci+GkSeQvt4"',
+163 silly get     vary: 'Accept-Encoding',
+163 silly get     'x-status-cat': 'http://flic.kr/p/aV6jFK' } ]
+164 verbose stack Error: unregistered users are not allowed to access package gulp : gulp
+164 verbose stack     at makeError (/Users/anmol/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+164 verbose stack     at CachingRegistryClient.<anonymous> (/Users/anmol/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+164 verbose stack     at Request._callback (/Users/anmol/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+164 verbose stack     at Request.self.callback (/Users/anmol/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/request/request.js:199:22)
+164 verbose stack     at emitTwo (events.js:87:13)
+164 verbose stack     at Request.emit (events.js:172:7)
+164 verbose stack     at Request.<anonymous> (/Users/anmol/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/request/request.js:1036:10)
+164 verbose stack     at emitOne (events.js:82:20)
+164 verbose stack     at Request.emit (events.js:169:7)
+164 verbose stack     at IncomingMessage.<anonymous> (/Users/anmol/.nvm/versions/node/v4.4.3/lib/node_modules/npm/node_modules/request/request.js:963:12)
+165 verbose statusCode 403
+166 verbose pkgid gulp
+167 verbose cwd /Users/anmol/Sites/projects/personal/particle
+168 error Darwin 16.7.0
+169 error argv "/Users/anmol/.nvm/versions/node/v4.4.3/bin/node" "/Users/anmol/.nvm/versions/node/v4.4.3/bin/npm" "install"
+170 error node v4.4.3
+171 error npm  v2.15.1
+172 error code E403
+173 error unregistered users are not allowed to access package gulp : gulp
+174 error If you need help, you may report this error at:
+174 error     <https://github.com/npm/npm/issues>
+175 verbose exit [ 1, true ]
