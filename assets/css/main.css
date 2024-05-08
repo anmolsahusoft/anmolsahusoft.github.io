@@ -3413,7 +3413,7 @@ sub,sup{
         font-size:40px
     }
     .work .timeline-event-copy{
-         padding: 1.5em;
+         padding: 1.5em !important;
     }
 }
 .header-links{
