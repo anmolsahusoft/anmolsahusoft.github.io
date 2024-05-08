@@ -3413,7 +3413,7 @@ sub,sup{
         font-size:40px
     }
     .work .timeline-event-copy{
-         padding: 1.5em 0;
+         padding: 1.5em;
     }
 }
 .header-links{
@@ -3644,7 +3644,7 @@ sub,sup{
     box-shadow:inset 40em 0 0 0 #a83279
 }
  .work .timeline-event-copy{
-    padding:1.5em;
+    padding: 1.5em 0;
     position:relative;
     top:-1.875em;
     left:4em;
